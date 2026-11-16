@@ -74,7 +74,7 @@ Note :
 # Optimization
 Using this custom Java Action, the export process can handle up to 8 lakh records in approximately 5–10 seconds under the tested conditions.
 
-However, retrieving a large list of records can take significantly more time than processing and exporting the data. Therefore, it is recommended to use OQL (Object Query Language) to retrieve the required records efficiently and then pass the retrieved list to this Java Action for processing and export.
+However, retrieving a large list of records can take significantly more time than processing and exporting the data. Therefore, it is recommended to use OQL. (Object Query Language) to retrieve the required records efficiently and then pass the retrieved list to this Java Action for processing and export.
 
 This approach helps optimize the overall export workflow by reducing the time spent retrieving data and enabling faster processing of large datasets.
 
